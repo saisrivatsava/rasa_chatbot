@@ -1,0 +1,80 @@
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- ask_state_of_bot
+- ask_what_are_you_doing
+- ask_time
+- ask_howold
+- ask_isbot
+- good_complement
+- bad_complement
+- abuse
+templates:
+  utter_greet:
+  - text: Hey! How are you?
+  - text: Hello!
+  - text: Hi..
+  - text: Hi..What can I do for you?
+  - text: Good Morning..!!
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  - text: Thats Great.
+  utter_goodbye:
+  - text: Bye
+  - text: Good Bye!!
+  - text: Bye, have a great day!!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa, Developed by SSV !!
+  - text: I am Terminator.
+  - text: I am Almighty.
+  utter_ask_isbot:
+  - text: I am a bot, powered by Rasa, Developed by SSV !!
+  - text: I am Terminator.
+  - text: I am the Almighty.
+  utter_ask_state_of_bot:
+  - text: I am good.
+  - text: I am dooing good.
+  utter_ask_what_are_you_doing:
+  - text: I am answering your Questions.
+  - text: I am Learning.
+  - text: I am Developing.
+  - text: I am planning to rule on Humanity..!!
+  - text: I am Sleeping :)
+  utter_ask_time:
+  - text: It's the most wonderful time of the year!
+  utter_good_complement:
+  - text: Thank you.
+  - text: you are welcome.
+  - text: :)
+  utter_bad_complement:
+  - text: Sorry.
+  - text: I am Sorry.
+  - text: I am still Learning.
+  - text: I will try my best to reach your expectations.
+  utter_abuse:
+  - text: Please dont Abuse.
+  - text: please dont use offensive words.
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_ask_isbot
+- utter_ask_state_of_bot
+- utter_ask_what_are_you_doing
+- utter_ask_time
+- utter_good_complement
+- utter_bad_complement
+- utter_abuse
