@@ -217,3 +217,44 @@
 - What is the hour and minute right now?
 - What time have we got?
 - What time is it right now?
+
+## intent:ask_gold_price
+- what is todays gold price?
+- gold price?
+- give me the price of gold?
+- what is the gold price?
+
+## intent:ask_metal_price
+- what is todays [gold](metal_name) price in [hyderabad](location)?
+- what is todays [Gold](metal_name) price in [Hyderabad](location)
+- what is todays [copper](metal_name) price in [Hyderabad](location)?
+- what is todays [Gold](metal_name) price in [hyderabad](location)
+- what is todays [silver](metal_name) price in [Chennai](location)?
+- What is [gold](metal_name) price in [hyderabad](location)
+- What is [silver](metal_name) price in [Chennai](location)
+- What is [copper](metal_name) price in [hyderabad](location)
+- [Silver](metal_name) price in [Mumbai](location)
+- [Bronze](metal_name) price in [Delhi](location)
+- [bronze](metal_name) price in [Guntur](location)
+- [gold](metal_name) price in [hyderabad](location)?
+- [Gold](metal_name) price ?
+- [silver](metal_name) price in [Chennai](location)
+- todays [Silver](metal_name) price in [Mumbai](location)
+- todays [silver](metal_name) price?
+- what is todays [silver](metal_name) price in [Guntur](location)
+
+## lookup:location
+- Hyderabad
+- Chennai
+- Mumbai
+- Delhi
+- hyderabad
+- guntur
+- Guntur
+- chennai
+
+## lookup:metal_name
+- gold
+- silver
+- copper
+- bronze

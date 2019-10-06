@@ -14,6 +14,16 @@ intents:
 - good_complement
 - bad_complement
 - abuse
+- ask_gold_price
+- ask_metal_price
+entities:
+- metal_name
+- location
+slots:
+  location:
+    type: text
+  metal_name:
+    type: text
 templates:
   utter_greet:
   - text: Hey! How are you?
@@ -78,3 +88,5 @@ actions:
 - utter_good_complement
 - utter_bad_complement
 - utter_abuse
+- action_ask_gold_price
+- action_ask_metal_price
